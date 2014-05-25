@@ -153,16 +153,21 @@ These are used on the angle() variable:
 gravityMean
 
 tBodyAccMean
-*-tBodyAccJerkMean
-*-tBodyGyroMean
-*-tBodyGyroJerkMean
+
+tBodyAccJerkMean
+
+tBodyGyroMean
+
+tBodyGyroJerkMean
 
 Here are the complete set of Features:
 ======================================
 
-*-1 tBodyAcc-mean()-X
-*-2 tBodyAcc-mean()-Y
-*3 tBodyAcc-mean()-Z
+tBodyAcc-mean()-X
+
+tBodyAcc-mean()-Y
+
+tBodyAcc-mean()-Z
 *4 tBodyAcc-std()-X
 *5 tBodyAcc-std()-Y
 *6 tBodyAcc-std()-Z
