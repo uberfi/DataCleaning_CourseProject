@@ -6,12 +6,16 @@ DataCleaning_CourseProject
 ### May 25, 2014
 ------------------------------------------------------------------------------
 
-*-1. You should create one R script called run_analysis.R that does the following. 
-*-2. Merges the training and the test sets to create one data set.
-*-3. Extracts only the measurements on the mean and standard deviation for each measurement. 
-*-4. Uses descriptive activity names to name the activities in the data set
+1. You should create one R script called run_analysis.R that does the following. 
+
+2. Merges the training and the test sets to create one data set.
+
+3. Extracts only the measurements on the mean and standard deviation for each measurement.
+
+4. Uses descriptive activity names to name the activities in the data set
    Appropriately labels the data set with descriptive activity names. 
-*-5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 
 ### DataCleaning Course Project
@@ -75,30 +79,47 @@ fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-*-tBodyAcc-XYZ
-*-tGravityAcc-XYZ
-*-tBodyAccJerk-XYZ
-*-tBodyGyro-XYZ
-*-tBodyGyroJerk-XYZ
-*-tBodyAccMag
-*-tGravityAccMag
-*-tBodyAccJerkMag
-*-tBodyGyroMag
-*-tBodyGyroJerkMag
-*-fBodyAcc-XYZ
-*-fBodyAccJerk-XYZ
-*-fBodyGyro-XYZ
-*-fBodyAccMag
-*-fBodyAccJerkMag
-*-fBodyGyroMag
-*-fBodyGyroJerkMag
+tBodyAcc-XYZ
+
+tGravityAcc-XYZ
+
+tBodyAccJerk-XYZ
+
+tBodyGyro-XYZ
+
+tBodyGyroJerk-XYZ
+
+tBodyAccMag
+
+tGravityAccMag
+
+tBodyAccJerkMag
+
+tBodyGyroMag
+
+tBodyGyroJerkMag
+
+fBodyAccJerk-XYZ
+
+fBodyGyro-XYZ
+
+fBodyAccMag
+
+fBodyAccJerkMag
+
+fBodyGyroMag
+
+fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 ================================================================
-*-mean(): Mean value
-*-std(): Standard deviation
-*-mad(): Median absolute deviation 
-*-max(): Largest value in array
+mean(): Mean value
+
+std(): Standard deviation
+
+mad(): Median absolute deviation 
+
+max(): Largest value in array
 *-min(): Smallest value in array
 *-sma(): Signal magnitude area
 *-energy(): Energy measure. Sum of the squares divided by the number of values. 
