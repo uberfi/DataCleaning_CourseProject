@@ -116,7 +116,7 @@ for each measurement. There are 66 such variables:
 ## Extract Mean() and std() for each measurement
 ### There are 66 such variables
 ### The renaming was undertaken with gsub()
-### The main reanmeing protocol was to change the hyphens to dots inorder
+### The main renaming protocol was to change the hyphens to dots inorder
 ### to make the names more R compliant.
 ### The variables are well-desriptive within the HAR context
 ### I included the labels as well: "subject", "Activities", and "Partition"
