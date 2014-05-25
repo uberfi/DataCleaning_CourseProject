@@ -1,6 +1,6 @@
 ### Cos Fi 
 #### DataCleaning_Course project
-#### May 25, 2014
+##### May 25, 2014
 ------------------------------------------------------------------------------
 
 1. You should create one R script called run_analysis.R that does the following. 
